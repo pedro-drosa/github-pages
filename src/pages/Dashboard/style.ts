@@ -47,8 +47,10 @@ export const Repositories = styled.div`
   max-width:700px;
 
   a + a {
+    
     margin-top: 16px;
   }
+
   a {
     background: #fff;
     border-radius: 5px;
@@ -59,7 +61,7 @@ export const Repositories = styled.div`
     display: flex;
     align-items: center;
     transition: transform 0.2s;
-    
+
     &:hover {
       transform:translateX(10px);
     }
@@ -70,7 +72,8 @@ export const Repositories = styled.div`
         border-radius: 50%;
     }
       div {
-        margin-left: 16px;
+        margin: 0 16px;
+        flex: 1;
 
         strong {
           font-size: 20px;
